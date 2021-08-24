@@ -25,6 +25,7 @@ header {
   height: 80px;
   display: flex;
   align-items: center;
+  box-shadow: 10px 10px 25px 10px black;
 }
 
 header * {
@@ -36,6 +37,22 @@ header li {
 }
 
 header li a {
+  /* background: personal edit */
+  background: orange;
   color: #333;
   text-decoration: none;
+  /* Everything below this comment: personal edit */
+  padding: 10px 25px;
+  border-radius: 50px;
+}
+
+li a:hover,
+li a:focus {
+  background: rgb(97, 63, 3);
+  color: #fff;
+}
+
+li a:active {
+  background: rgb(218, 199, 161);
+  color: #333;
 }
