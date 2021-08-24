@@ -1,3 +1,7 @@
+header img {
+  height: 80px;
+}
+
 body {
   /* background: chocolate; */
   height: 125vh;
@@ -6,10 +10,15 @@ body {
   font-family: sans-serif;
 }
 
-header img {
-  height: 80px;
-}
-
 main {
   color: #fff;
+}
+
+header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
 }
