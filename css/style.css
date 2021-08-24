@@ -1,3 +1,15 @@
 body {
-  background: chocolate;
+  /* background: chocolate; */
+  height: 125vh;
+  background-image: url("https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+header img {
+  height: 80px;
+}
+
+main {
+  color: #fff;
 }
