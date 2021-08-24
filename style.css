@@ -43,7 +43,8 @@ header li a {
   text-decoration: none;
   /* Everything below this comment: personal edit */
   font-weight: bold;
-  padding: 10px 25px;
+  padding: 8px 20px;
+  border: 2px solid orange;
   border-radius: 50px;
 }
 
