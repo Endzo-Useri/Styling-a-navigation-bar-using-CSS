@@ -42,6 +42,7 @@ header li a {
   color: #333;
   text-decoration: none;
   /* Everything below this comment: personal edit */
+  font-weight: bold;
   padding: 10px 25px;
   border-radius: 50px;
 }
