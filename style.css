@@ -53,17 +53,17 @@ li a:focus {
   background: rgb(97, 63, 3);
   color: #fff;
   /* pierres edit */
-  padding: 12px 30px;
+  /* padding: 12px 30px; */
 }
 
 li a:active {
   background: rgb(218, 199, 161);
   color: #333;
   /* pierres edit */
-  padding: 4px 10px;
+  /* padding: 4px 10px; */
 }
 
-#modal {
+/* #modal {
   display: none;
   z-index: 2;
   margin: auto;
@@ -75,4 +75,4 @@ li a:active {
   height: 100%;
   background: rgba(85, 84, 84, 0.596);
   z-index: 1;
-}
+} */
