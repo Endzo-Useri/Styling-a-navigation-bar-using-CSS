@@ -46,15 +46,24 @@ header li a {
   padding: 8px 20px;
   border: 2px solid orange;
   border-radius: 50px;
+  /* pierre edit */
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
 }
 
 li a:hover,
 li a:focus {
   background: rgb(97, 63, 3);
   color: #fff;
+  /* pierres edit */
+  padding: 12px 30px;
 }
 
 li a:active {
   background: rgb(218, 199, 161);
   color: #333;
+  /* pierres edit */
+  padding: 4px 10px;
 }
