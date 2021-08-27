@@ -36,7 +36,7 @@ header li {
   margin: 20px;
 }
 
-header li a {
+.nav-bar {
   /* background: personal edit */
   background: orange;
   color: #333;
