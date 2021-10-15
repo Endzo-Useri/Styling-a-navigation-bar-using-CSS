@@ -32,10 +32,6 @@ header * {
   display: inline;
 }
 
-header li {
-  margin: 20px;
-}
-
 .nav-link {
   /* background: personal edit */
   background: orange;
@@ -43,24 +39,23 @@ header li {
   text-decoration: none;
   /* Everything below this comment: personal edit */
   font-weight: bold;
+  margin: 20px;
   padding: 8px 20px;
   border: 2px solid orange;
   border-radius: 50px;
 }
 
-li a:hover,
-li a:focus {
+.nav-link:hover,
+.nav-link:focus {
   background: rgb(97, 63, 3);
   color: #fff;
   /* pierres edit */
   /* padding: 12px 30px; */
 }
 
-li a:active {
+.nav-link:active {
   background: rgb(218, 199, 161);
   color: #333;
-  /* pierres edit */
-  /* padding: 4px 10px; */
 }
 
 /* #modal {
