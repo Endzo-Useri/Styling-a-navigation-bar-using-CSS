@@ -17,7 +17,7 @@ main {
 }
 
 header {
-  background: hsla(0, 0%, 100%, .5);
+  background: hsla(0, 0%, 100%, .7);
   position: fixed;
   top: 0;
   left: 0;
@@ -38,7 +38,10 @@ header * {
   color: #333;
   text-decoration: none;
   /* Everything below this comment: personal edit */
+	display: inline-block;
 	text-transform: uppercase;
+	transform: scale(1);
+	transition: transform 250ms;
   font-weight: bold;
   margin: 1.25em;
   padding: .5em 1.25em;
@@ -50,11 +53,13 @@ header * {
 .nav-link:focus {
   background: rgb(97, 63, 3);
   color: #fff;
+	transform: scale(1.05);
 }
 
 .nav-link:active {
-  background: rgb(218, 199, 161);
+  background: orange;
   color: #333;
+	transform: scale(1);
 }
 
 /* #modal {
