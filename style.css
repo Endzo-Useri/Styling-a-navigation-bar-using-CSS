@@ -46,7 +46,7 @@ header * {
   margin: 1.25em;
   padding: .5em 1.25em;
   border: 2px solid orange;
-  border-radius: 3.1250rem;
+  border-radius: 3.125rem;
 }
 
 .nav-link:hover,
